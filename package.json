@@ -1,0 +1,23 @@
+{
+  "name": "vpcdrill",
+  "version": "1.0.0",
+  "description": "learning",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bind-mersad/vpcdrill.git"
+  },
+  "author": "Mersad Hadzic",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bind-mersad/vpcdrill/issues"
+  },
+  "homepage": "https://github.com/bind-mersad/vpcdrill#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1"
+  }
+}
