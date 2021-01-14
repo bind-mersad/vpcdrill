@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            <h2 class="text-center">Dripci</h2>
+        </div>
+    </div>
+    <br>
+    <div class="row">
+        <div class="col">
+            <div class="text-right">
+                <a href="/join" class="btn btn-primary btn-sm">Join</a>
+            </div>
+            <div class="table-responsive">
+                <table class="table">
+                    <thead>
+                    <th>Name</th>
+                    <th>Phone</th>
+                    <th>Joined</th>
+                    </thead>
+                    <tbody>
+                    <% dripci.forEach(function(dripac){ %>
+                    <tr>
+                        <td><%= dripac.name %></td>
+                        <td><%= dripac.phone %></td>
+                        <td><%= dripac.created %></td>
+                    </tr>
+                    <% }) %>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+
+</html>
