@@ -4,7 +4,7 @@ const bodyParser = require('body-parser');
 const expressSanitizer = require("express-sanitizer");
 const mongoose = require('mongoose');
 
-mongoose.connect('mongodb://localhost/vpctraining', {useNewUrlParser: true});
+mongoose.connect('mongodb://10.0.14.27/vpctraining', {useNewUrlParser: true});
 app.set('view engine', 'ejs');
 app.use(express.static("public"));
 app.use(bodyParser.urlencoded({extended: true}));
